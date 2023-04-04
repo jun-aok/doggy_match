@@ -1,0 +1,17 @@
+{
+  "go.useLanguageServer": true,
+  "go.alternateTools": {
+      "go-langserver": "gopls"
+  },
+  "[go]": {
+      "editor.snippetSuggestions": "none",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+          "source.organizeImports": true
+      },
+  },
+  "gopls": {
+      "usePlaceholders": false
+},
+"go.inferGopath": false
+}

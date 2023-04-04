@@ -1,0 +1,42 @@
+.login {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.login div {
+  margin-top: 10px
+}
+
+.login_other {
+  display: block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 0.375rem;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: .875rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  position: relative;
+  font-weight: 700;
+  background-color: #fff;
+  border: 1px solid #dcdcdc;
+  color: #285ac8;
+  margin-bottom: 0.5rem;
+  -webkit-transition: background-color .2s linear;
+  transition: background-color .2s linear;
+}
+
+.login_other  > img {
+  width: 1.25rem;
+  position: absolute;
+  top: 50%;
+  left: 1.25rem;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

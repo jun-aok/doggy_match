@@ -1,0 +1,3 @@
+{
+  "MySqlConnectionString": "test:test@tcp(doggy_matching-db)/doggy_matching?parseTime=true&loc=Asia%2FTokyo"
+}
